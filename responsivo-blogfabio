@@ -1,0 +1,99 @@
+/*=====================================
+== Responsive Design ==
+=====================================*/
+@media screen and (max-width: 1020px) {
+.row{width:748px}
+.index #main-wrapper,.archive #main-wrapper,.item #main-wrapper,.static_page #main-wrapper{width:100%}
+.sidebar-right{margin-top:20px;width:100%}
+#sidebar-right{width:100%;margin-top:0;margin-right:0;padding:0}
+.footer-widget{width:100%;margin-right:0}
+.flickr_widget .flickr_badge_image:nth-of-type(4),.flickr_widget .flickr_badge_image:nth-of-type(8),.flickr_widget .flickr_badge_image:nth-of-type(12){margin-right:10px}
+}
+
+@media screen and (max-width: 767px) {
+.row{width:450px}
+#ads-top .widget-content{max-width:100%;height:auto;line-height:0}
+#ads-top .widget-content img,#ads-top .widget-content iframe{max-width:100%}
+.intro .widget .feat-content{height:auto}
+.intro li{width:100%;float:left}
+.intro li:first-child{width:100%;height:250px}
+.intro li:first-child .rcp-thumb{height:250px}
+.intro li:first-child .rcp-title{font-size:32px}
+.intro li:nth-child(2){margin:20px 0}
+.feat1 .primeiro{width:100%;margin-bottom:20px;margin-right:0}
+.feat .primeiro-thumb,.feat1 .primeiro .feat-thumb{height:250px}
+.feat1 ul li{width:100%;margin-bottom:20px}
+.feat ul li .feat-thumb,.feat ul li .mag-thumb{height:200px}
+.feat ul li .mag-content .feat-headline a{font-size:20px}
+.block-image{width:100%;height:250px;margin:0 0 15px}
+.block-image .thumb,.block-image .thumb a{height:250px}
+.index article,.archive article{float:left}
+#ads-home .widget-content,#ads-title .widget-content,#ads-inter .widget-content{max-width:100%;height:auto;line-height:0}
+#ads-home .widget-content img,#ads-title .widget-content img,#ads-inter .widget-content img,#ads-home .widget-content iframe,#ads-title .widget-content iframe,#ads-inter .widget-content iframe{max-width:100%}
+.item .post-title,.static_page .post-title{font-size:27px;margin-bottom:20px}
+.related li{width:47.3%;min-height:195px}
+.related li:nth-of-type(2),.related li:nth-of-type(4),.related li:nth-of-type(6),.related li:nth-of-type(8){margin-right:0}
+.related li:nth-of-type(3),.related li:nth-of-type(6),.related li:nth-of-type(9){margin-right:20px}
+#footer-container p{width:100%;text-align:center}
+#back-to-top{display:none}
+}
+
+@media screen and (max-width: 479px) {
+.row{width:300px}
+.the-logo{width:100%;text-align:center}
+.the-logo img{margin:0 auto}
+#header-social ul{display:none}
+#main-nav #menu-main-nav,#nav-search{width:300px}
+.intro li:first-child,.intro li:first-child .rcp-thumb{height:200px}
+.intro li:first-child .rcp-title{font-size:25px}
+.intro .rcp-title a{bottom:0}
+.intro li,.intro .rcp-thumb{height:180px}
+.feat .primeiro-thumb,.feat1 .primeiro .feat-thumb{height:200px}
+.feat .primeiro-content .feat-headline a{font-size:25px}
+.feat ul li .feat-thumb,.feat ul li .mag-thumb{height:180px}
+.block-image,.block-image .thumb,.block-image .thumb a{height:200px}
+.index .post h2 a,.archive .post h2 a{font-size:24px;line-height:1.3em}
+.flickr_widget .flickr_badge_image:nth-of-type(4),.flickr_widget .flickr_badge_image:nth-of-type(8),.flickr_widget .flickr_badge_image:nth-of-type(12){margin-right:0}
+.item .post-title,.static_page .post-title{font-size:25px;margin-bottom:15px}
+.meta-share .facebook rd{display:none}
+#share-box{height:auto}
+.social-pop{float:left;text-align:left;padding-top:10px}
+.img-box{width:70px;height:70px}
+.related li{width:100%;min-height:auto;margin-right:0;margin-bottom:10px}
+.related-thumb,.related li .related-img{height:180px}
+.cmm-tabs-header h3 h8,.comments .comments-content .datetime{display:none}
+.cmm-tabs-header h3 h9{display:inline-block}
+}
+
+@media screen and (max-width: 319px) { 
+.row{width:220px}
+#main-nav #menu-main-nav,#nav-search{width:220px}
+#nav-search #searchform{width:181px}
+#nav-search #s{width:96px}
+.intro li:first-child,.intro li:first-child .rcp-thumb{height:160px}
+.intro li:first-child .rcp-title{font-size:18px}
+.intro li,.intro .rcp-thumb{height:130px}
+.intro .rcp-title{font-size:15px}
+.feat .primeiro-thumb,.feat1 .primeiro .feat-thumb{height:160px}
+.feat .primeiro-content .feat-headline a{font-size:18px}
+.feat ul li .feat-thumb,.feat ul li .mag-thumb{height:130px}
+.feat ul li .mag-content .feat-headline a{font-size:15px}
+.block-image,.block-image .thumb,.block-image .thumb a{height:160px}
+.index .post h2 a,.archive .post h2 a{font-size:18px}
+.item .post-title,.static_page .post-title{font-size:18px}
+.post-meta{height:auto}
+.meta-details{width:100%}
+.meta-details span{display:inline-block;clear:inherit}
+.meta-details .post-timestamp{float:right}
+.meta-details .post-author{float:left}
+.meta-share{float:left;text-align:left;padding-top:10px}
+.meta-share a{padding:0 10px}
+.meta-share .facebook rd{display:initial}
+.social-pop a{padding:0 10px}
+.related-thumb,.related li .related-img{height:130px}
+.cmm-tabs.simpleTab .wrap-tab{float:left}
+.cmm-tabs-header .wrap-tab a{padding:0 13.33px}
+.sidebar-right,.author-sec,.cmm-tabs-header h3{display:none}
+#footer-container{font-size:10px}
+.footer-wrap{display:none}
+}
