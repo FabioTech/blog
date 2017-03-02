@@ -34,7 +34,7 @@ var tabbedTOC_defaults = {
 	preload: 0, // Load the feed after 0 seconds (option => time in milliseconds || "onload")
 	sortAlphabetically: true, // `false` to sort posts by date
 	showNew: false, // `false` to hide the "New!" mark in most recent posts, or define how many recent posts are to be marked
-	newText: " - <em style='color:red;'>Novo!</em>" // HTML for the "Novo!" text
+	newText: " - <em style='color:red;'>Baru!</em>" // HTML for the "Novo!" text
 };
 
 for (var i in tabbedTOC_defaults) {
