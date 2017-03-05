@@ -1,0 +1,40 @@
+<![CDATA[
+body#layout{background-color:#2c3e50}
+body#layout ul,body#layout li{list-style:none;padding:0}
+body#layout .section h4{font-family:'Open Sans',sans-serif;margin:2px;color:#31465A}
+body#layout .draggable-widget .widget-wrap2{background:#31465A url(https://www.blogger.com/img/widgets/draggable.png) no-repeat 4px 50%!important;cursor:move}
+body#layout div.section{background-color:#f8f8f8;border:1px solid #ccc;font-family:sans-serif;margin:0 4px 8px!important;overflow:visible;padding:4px;position:relative;width:auto}
+body#layout #option{overflow:hidden;background-color:rgba(255, 255, 255, 0.1);border-color:rgba(255, 255, 255, 0.1)}
+body#layout #option h4{color:#fff;padding:10px 0}
+body#layout #option .widget{width:32.45%;float:left}
+body#layout #option .widget .widget-content{background:#fff;color:#1c303a;border:1px solid #fff}
+body#layout #option .widget .widget-content .editlink{border-color:#2496EE;background-color:#2496EE;color:#fff!important;padding:2px 6px}
+body#layout #option .widget .widget-content .editlink:hover{border-color:#e74c3c;background-color:#e74c3c;text-decoration:none}
+body#layout .add_widget a{color:#2496EE;text-decoration:none;font-size:12px}
+body#layout .editlink{border:1px solid;border-radius:2px;padding:0 2px}
+body#layout .top-nav{float:left;width:70%!important}
+body#layout .header-social{float:right;width:26%!important;height:auto}
+body#layout #header-wrapper{padding:0;margin:0;height:auto}
+body#layout #header{width:70%;height:auto}
+body#layout #li-home{display:none}
+body#layout #main-nav{height:auto;min-height:125px;overflow:hidden;padding-bottom:1px}
+body#layout #main-nav .section{background-color:#3598db;border-color:#2980b9}
+body#layout #main-nav .section h4{padding-bottom:3px;color:#fff}
+body#layout #main-nav .section .widget-content{border-color:#fff}
+body#layout li.li-home{display:none} 
+body#layout #content-wrapper{overflow:hidden;margin:10px 0}
+body#layout #main-wrapper{float:left;width:685px;margin-top:3px}
+body#layout #main{background-color:#e67e22;border-color:#d35400}
+body#layout #author-head {display:block;}
+body#layout .sidebar-right{margin-top:3px;float:right;width:292px}
+body#layout .footer-wrap div.section{float:left;width:31.3964%}
+body#layout .footer-wrap{padding-top:0}
+body#layout .footer-wrap{width:100%;display:inline-block}
+body#layout .FollowByEmail .widget-content:before{display:none}
+body#layout #intro-sec{background-color:#2ecc71;border-color:#27ae60}
+body#layout #feat-sec1{background-color:#1abc9c;border-color:#16a085}
+body#layout #author-sec{background-color:#9b59b6;border-color:#8e44ad}
+body#layout #ads-top,body#layout #ads-home,body#layout #ads-title,body#layout #ads-inter{background-color:#e74c3c;border-color:#c0392b}
+body#layout #main h4,body#layout #author-sec h4,body#layout #feat-sec1 h4,body#layout #intro-sec h4,body#layout #ads-top h4,body#layout #ads-home h4,body#layout #ads-title h4,body#layout #ads-inter h4{padding-bottom:3px;color:#fff}
+body#layout #main .widget-content,body#layout #author-sec .widget-content,body#layout #feat-sec1 .widget-content,body#layout #intro-sec .widget-content,body#layout #ads-top .widget-content,body#layout #ads-home .widget-content,body#layout #ads-title .widget-content,body#layout #ads-inter .widget-content{border-color:#fff}
+]]>
